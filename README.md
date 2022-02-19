@@ -24,5 +24,6 @@ flowchart TD;
     noCake --> lie
     cakeExists -- Yes --> eat[Eat the cake]
     eat --> noCake
+    lie --> End(End)
  ```
  
